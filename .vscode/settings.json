@@ -1,0 +1,13 @@
+{
+    "ROS2.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/suraj-ubuntu/ros2_wks/build/my_robot_controller",
+        "/home/suraj-ubuntu/ros2_wks/install/my_robot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/suraj-ubuntu/ros2_wks/build/my_robot_controller",
+        "/home/suraj-ubuntu/ros2_wks/install/my_robot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

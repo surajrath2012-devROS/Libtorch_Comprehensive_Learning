@@ -1,0 +1,5 @@
+build/
+# Ignore VS Code C++ database files
+.vscode/*.db
+.vscode/*.db-shm
+.vscode/*.db-wal
