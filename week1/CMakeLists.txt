@@ -13,3 +13,8 @@ set_property(TARGET hello_tensor PROPERTY CXX_STANDARD 17)
 add_executable(tensor_ops tensor_operations.cpp)
 target_link_libraries(tensor_ops "${TORCH_LIBRARIES}")
 set_property(TARGET tensor_ops PROPERTY CXX_STANDARD 17)
+
+# --- Day 3 App ---
+add_executable(tensor_ops_2 tensor_operations_2.cpp)
+target_link_libraries(tensor_ops_2 "${TORCH_LIBRARIES}")
+set_property(TARGET tensor_ops_2 PROPERTY CXX_STANDARD 17)
