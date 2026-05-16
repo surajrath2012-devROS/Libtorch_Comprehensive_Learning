@@ -23,3 +23,8 @@ set_property(TARGET tensor_ops_2 PROPERTY CXX_STANDARD 17)
 add_executable(tensor_ops_3 tensor_operations_3.cpp)
 target_link_libraries(tensor_ops_3 "${TORCH_LIBRARIES}")
 set_property(TARGET tensor_ops_3 PROPERTY CXX_STANDARD 17)
+
+# --- Day 5 App ---
+add_executable(autograd autograd.cpp)
+target_link_libraries(autograd "${TORCH_LIBRARIES}")
+set_property(TARGET autograd PROPERTY CXX_STANDARD 17)
