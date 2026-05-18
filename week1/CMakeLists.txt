@@ -33,3 +33,8 @@ set_property(TARGET autograd PROPERTY CXX_STANDARD 17)
 add_executable(autograd2 autograd2.cpp)
 target_link_libraries(autograd2 "${TORCH_LIBRARIES}")
 set_property(TARGET autograd2 PROPERTY CXX_STANDARD 17)
+
+# --- Day 7 App ---
+add_executable(sequential_nn simple_sequential_nn.cpp)
+target_link_libraries(sequential_nn "${TORCH_LIBRARIES}")
+set_property(TARGET sequential_nn PROPERTY CXX_STANDARD 17)
